@@ -29,7 +29,7 @@ The python service simulates an iOS device that generates events from hardware o
 	```
 4. The `docker-compose up -d` will up docker containers and then display the following logs in terminal.
 
-5. After building docker containers (We kindly draw your attention to the fact that all containers must run. Otherwise, for example, if the kafka container does not run, further scripts won't be able to work), tap on your web browser link:
+5. After building docker containers (We kindly draw your attention to the fact that all containers must run), tap on your web browser link:
    ```
 	https://localhost:8080
 	```
