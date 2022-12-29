@@ -37,7 +37,7 @@ The python service simulates an iOS device that generates events from hardware o
 
 6. Enter username = gpadmin and password = pivotal into the authorization form on the main page of the airflow
 
-7. Add connection to airflow: Go to Admin and click on the button "Connection". Write connection id = postgres_default, login = test, password = test, host = db, port = 5432 and click "Save"!
+7. Add connection to airflow: Go to Admin and click on the button "Connection". Write connection id = gp_conn, login = test, password = test, host = db, port = 5432 and click "Save"!
 
 8. Activate Dag "prepare_data" (move the toggle switch "prepare_data" to the on position)
 
